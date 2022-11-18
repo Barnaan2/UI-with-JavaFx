@@ -1,2 +1,2 @@
 # Ui-with-JavaFx
-Some basic Ui elements with java using  JavaFx Lib.
+Basic Ui elements with java using  JavaFx Lib.
