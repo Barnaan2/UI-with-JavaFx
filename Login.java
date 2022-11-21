@@ -60,9 +60,7 @@ public class Login extends Application {
         root.setPadding(new Insets(20 ,30, 20, 30));
         VBox loginForm = new VBox(10);
         loginForm.getChildren().addAll(username,password,btn);
-//        
-//        root.setTop(username);
-//        root.setTop(password);
+
 //        root.getChildren().addAll(btn);
 root.setTop(loginForm);
 
