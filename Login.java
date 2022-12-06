@@ -1,7 +1,3 @@
-/*
- *
- */
-
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -58,8 +54,6 @@ public class Login extends Application {
         root.setPadding(new Insets(20 ,30, 20, 30));
         VBox loginForm = new VBox(10);
         loginForm.getChildren().addAll(username,password,btn);
-
-//        root.getChildren().addAll(btn);
 root.setTop(loginForm);
 
         
@@ -70,9 +64,7 @@ root.setTop(loginForm);
         primaryStage.show();
     }
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         launch(args);
     }
